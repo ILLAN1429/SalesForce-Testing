@@ -1,0 +1,225 @@
+{
+  "id": "14541415-7a6d-46c8-8310-867d9a0a33ba",
+  "version": "2.0",
+  "name": "Creat contact",
+  "url": "https://itj-dev-ed.develop.my.salesforce.com",
+  "tests": [{
+    "id": "b0221fca-6cc0-43ad-b355-0da9d508ea0a",
+    "name": "AddContact",
+    "commands": [{
+      "id": "2e227378-aabd-43de-99eb-50f6b5ef28c3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c11cd21b-bd61-4a6e-b372-f16a5fd4597a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "787x723",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "941d98ae-0468-48d4-947c-5d385bcb2258",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='username_container']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "illan@itj.com"
+    }, {
+      "id": "850f4d14-921e-44ff-8248-800ef273cb8d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pw", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "ITijuana00*"
+    }, {
+      "id": "f739828a-88a1-40de-8141-30d14a11ea5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Login",
+      "targets": [
+        ["id=Login", "id"],
+        ["name=Login", "name"],
+        ["css=#Login", "css:finder"],
+        ["xpath=//input[@id='Login']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6f79d56-8b1d-46fc-b347-f2520c9060d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-icon-waffle_container",
+      "targets": [
+        ["css=.slds-icon-waffle_container", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'App Launcher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "805dd419-d151-4d49-9aae-5f3415cc41e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-icon-waffle_container",
+      "targets": [
+        ["css=.slds-icon-waffle_container", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'App Launcher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96692b99-de5b-413e-b14b-ab6fbd0c6308",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=460:83;a",
+      "targets": [
+        ["id=460:83;a", "id"],
+        ["css=#\\34 60\\3A 83\\;a", "css:finder"],
+        ["xpath=//button[@id='460:83;a']", "xpath:attributes"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'App Launcher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6608444-16ab-4efd-8cbf-3dd7b211d796",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=460:83;a",
+      "targets": [
+        ["id=460:83;a", "id"],
+        ["css=#\\34 60\\3A 83\\;a", "css:finder"],
+        ["xpath=//button[@id='460:83;a']", "xpath:attributes"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'App Launcher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0b52ecb-e796-4335-9e8f-23f2db004be2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=460:83;a",
+      "targets": [
+        ["id=460:83;a", "id"],
+        ["css=#\\34 60\\3A 83\\;a", "css:finder"],
+        ["xpath=//button[@id='460:83;a']", "xpath:attributes"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'App Launcher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "876827e7-ef60-4389-99bd-7bfc941718a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-button > .slds-button",
+      "targets": [
+        ["css=.slds-button > .slds-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[54]", "xpath:attributes"],
+        ["xpath=//div[@id='content_2623:0']/one-app-launcher-menu/div/lightning-button/button", "xpath:idRelative"],
+        ["xpath=//lightning-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34b47901-f94b-4b0d-9b00-17161c6d5964",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-size_1-of-5:nth-child(2) .slds-truncate .slds-truncate",
+      "targets": [
+        ["css=.slds-size_1-of-5:nth-child(2) .slds-truncate .slds-truncate", "css:finder"],
+        ["xpath=//div[@id='lgt-accordion-section-133']/slot/ul/li[2]/one-app-launcher-tab-item/a/span/lightning-formatted-rich-text/span/p", "xpath:idRelative"],
+        ["xpath=//li[2]/one-app-launcher-tab-item/a/span/lightning-formatted-rich-text/span/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47721237-b57b-4080-90c7-10fa72c0f914",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-button:nth-child(1) > .forceActionLink > div",
+      "targets": [
+        ["css=.slds-button:nth-child(1) > .forceActionLink > div", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/div/div/div[2]/ul/li/a/div", "xpath:idRelative"],
+        ["xpath=//li/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fbb1bba-d147-4b65-b257-f877295a6564",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-button:nth-child(1) > .forceActionLink > div",
+      "targets": [
+        ["css=.slds-button:nth-child(1) > .forceActionLink > div", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/div/div/div[2]/ul/li/a/div", "xpath:idRelative"],
+        ["xpath=//li/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6c9c64b-9118-484c-b6e5-d58b8f8936f6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slds-button:nth-child(1) > .forceActionLink > div",
+      "targets": [
+        ["css=.slds-button:nth-child(1) > .forceActionLink > div", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/div/div/div[2]/ul/li/a/div", "xpath:idRelative"],
+        ["xpath=//li/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99d6b955-d3c2-4466-8220-de692453417a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-137",
+      "targets": [
+        ["id=input-137", "id"],
+        ["name=Name", "name"],
+        ["css=#input-137", "css:finder"],
+        ["xpath=//input[@id='input-137']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-121']/div/slot/records-record-layout-row[2]/slot/records-record-layout-item/div/span/slot/records-record-layout-base-input/lightning-input/div/div/input", "xpath:idRelative"],
+        ["xpath=//records-record-layout-base-input/lightning-input/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f079c761-37d3-42ad-b4b1-0eff8e377218",
+      "comment": "",
+      "command": "click",
+      "target": "name=SaveEdit",
+      "targets": [
+        ["name=SaveEdit", "name"],
+        ["css=.slds-button_brand", "css:finder"],
+        ["xpath=//button[@name='SaveEdit']", "xpath:attributes"],
+        ["xpath=//div[@id='content_759:0']/div/div/div/records-modal-lwc-detail-panel-wrapper/records-record-layout-event-broker/slot/records-lwc-detail-panel/records-base-record-form/div/div[2]/div/records-form-footer/div/div/div/runtime_platform_actions-actions-ribbon/ul/li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-lwc-headless/slot/slot/lightning-button/button", "xpath:idRelative"],
+        ["xpath=//li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-lwc-headless/slot/slot/lightning-button/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "559d84e6-536b-4deb-9ec6-a220088fafe7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b0221fca-6cc0-43ad-b355-0da9d508ea0a"]
+  }],
+  "urls": ["https://itj-dev-ed.develop.my.salesforce.com/"],
+  "plugins": []
+}

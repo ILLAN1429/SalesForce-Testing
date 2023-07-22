@@ -1,0 +1,111 @@
+{
+  "id": "7d4e5fe0-e188-4b87-b2f5-10b1d1ddf9a0",
+  "version": "2.0",
+  "name": "Logout",
+  "url": "https://itj-dev-ed.develop.lightning.force.com/lightning/setup/IncidentManagement/home",
+  "tests": [{
+    "id": "a442602b-e90e-42ce-86ff-c908bb28d4b1",
+    "name": "Logout",
+    "commands": [{
+      "id": "8787836d-8ba0-463c-8986-e533e9bf833e",
+      "comment": "",
+      "command": "open",
+      "target": "https://itj-dev-ed.develop.lightning.force.com/lightning/setup/IncidentManagement/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a0e29d3-6c7b-4585-bfd8-b4789740ab1c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "648f9d43-3bef-4077-a2a4-977da5270e5b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.photoContainer",
+      "targets": [
+        ["css=.photoContainer", "css:finder"],
+        ["xpath=//header[@id='oneHeader']/div[2]/span/div[2]/ul/li[8]/span/button/div/span", "xpath:idRelative"],
+        ["xpath=//span/button/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "919c45d3-823f-468a-8dab-c76494c7471c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.photoContainer",
+      "targets": [
+        ["css=.photoContainer", "css:finder"],
+        ["xpath=//div[@id='91:215;a']/span", "xpath:idRelative"],
+        ["xpath=//span/button/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62a3d89f-71e0-4733-85cc-b1cc943b1d2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.profileTrigger > .uiImage",
+      "targets": [
+        ["css=.profileTrigger > .uiImage", "css:finder"],
+        ["xpath=//div[@id='91:215;a']/span/div/span", "xpath:idRelative"],
+        ["xpath=//button/div/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "073aa424-6194-4f9d-aa8e-19efa6bf3029",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=.logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
+        ["xpath=//div[@id='content_115:3541;a']/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/secur/logout.jsp')]", "xpath:href"],
+        ["xpath=//div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11648f1b-1621-4355-a83c-b99c377c91c5",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='username_container']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "illan@itj.com"
+    }, {
+      "id": "973f8fad-a592-40f9-8fc7-ff80bea71466",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pw", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "ITijuana00*"
+    }]
+  }],
+  "suites": [{
+    "id": "531ec053-a059-4682-96ea-673df8f0e2cb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a442602b-e90e-42ce-86ff-c908bb28d4b1"]
+  }],
+  "urls": ["https://itj-dev-ed.develop.lightning.force.com/lightning/setup/IncidentManagement/home"],
+  "plugins": []
+}

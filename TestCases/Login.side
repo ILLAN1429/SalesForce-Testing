@@ -1,0 +1,188 @@
+{
+  "id": "67903bf3-7120-42ed-9a4a-5eec8606b54c",
+  "version": "2.0",
+  "name": "SalesForceTesting",
+  "url": "https://itj-dev-ed.develop.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fitj-dev-ed.develop.lightning.force.com%252Flightning%252Fsetup%252FSetupOneHome%252Fhome",
+  "tests": [{
+    "id": "b5c397e5-8858-4fb5-88b2-c5b7c5b220a0",
+    "name": "Login",
+    "commands": [{
+      "id": "fbbcf543-a125-42af-84a9-3621970a73c8",
+      "comment": "",
+      "command": "open",
+      "target": "https://itj-dev-ed.develop.my.salesforce.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "925427e1-7cbd-4e48-8770-fa9f07b4e301",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba874123-56b4-433b-813e-9ef0c6183cfd",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='username_container']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20b7bc14-cd6d-4113-b957-26e10f33c378",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='username_container']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "illan@itj.com"
+    }, {
+      "id": "8d678c3e-bbd3-4228-9e90-0c799763aa08",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pw", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "ITijuana00*"
+    }, {
+      "id": "0ad00320-516e-48ec-9ff8-0d2d4f2f3653",
+      "comment": "",
+      "command": "click",
+      "target": "id=Login",
+      "targets": [
+        ["id=Login", "id"],
+        ["name=Login", "name"],
+        ["css=#Login", "css:finder"],
+        ["xpath=//input[@id='Login']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5bcb9cd6-59f7-42c3-8a4e-1748d6cac0bd",
+    "name": "Log Out",
+    "commands": [{
+      "id": "d9b660cd-c196-430c-a84a-d59ba0fdd1c4",
+      "comment": "",
+      "command": "open",
+      "target": "https://itj-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c17100f1-34a4-42ed-af3e-8cdd3b84447a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ae24422-9d7c-4ff3-9dff-863b0c6dff3c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.photoContainer",
+      "targets": [
+        ["css=.photoContainer", "css:finder"],
+        ["xpath=//header[@id='oneHeader']/div[2]/span/div[2]/ul/li[8]/span/button/div/span", "xpath:idRelative"],
+        ["xpath=//span/button/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26a6911c-3ecc-45e2-a6f3-39720d644253",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.photoContainer",
+      "targets": [
+        ["css=.photoContainer", "css:finder"],
+        ["xpath=//div[@id='91:215;a']/span", "xpath:idRelative"],
+        ["xpath=//span/button/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09d2f561-ebc1-456d-8d9a-6032c2e9a9c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.profileTrigger > .uiImage",
+      "targets": [
+        ["css=.profileTrigger > .uiImage", "css:finder"],
+        ["xpath=//div[@id='91:215;a']/span/div/span", "xpath:idRelative"],
+        ["xpath=//button/div/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afe06cfa-e1b3-4c63-bb75-8241f595fdf6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=g > g > path",
+      "targets": [
+        ["css=g > g > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fac721af-e5a5-4e34-9468-dc8d06b39369",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=g > g > path",
+      "targets": [
+        ["css=g > g > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f0c5b23-188e-401e-956b-71064d4bc12a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menuTriggerLink",
+      "targets": [
+        ["css=.menuTriggerLink", "css:finder"],
+        ["xpath=//div[@id='142:215;a']/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//li[6]/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Setup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "184d814f-b2e2-4827-9186-30f18b1af330",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=.logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
+        ["xpath=//div[@id='content_115:4032;a']/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/secur/logout.jsp')]", "xpath:href"],
+        ["xpath=//div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1651bf5a-1977-4a24-85d8-4b5373c169bb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b5c397e5-8858-4fb5-88b2-c5b7c5b220a0"]
+  }],
+  "urls": ["https://itj-dev-ed.develop.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fitj-dev-ed.develop.lightning.force.com%252Flightning%252Fsetup%252FSetupOneHome%252Fhome"],
+  "plugins": []
+}

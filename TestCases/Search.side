@@ -1,0 +1,90 @@
+{
+  "id": "24ebafd0-9868-465a-8ba3-f861ee38a6fb",
+  "version": "2.0",
+  "name": "Search",
+  "url": "https://itj-dev-ed.develop.lightning.force.com",
+  "tests": [{
+    "id": "b0db200e-8831-4552-a07b-0b615d529a48",
+    "name": "Untitled",
+    "commands": [{
+      "id": "8c562da7-556d-491c-ac4a-f48f4b3a8ec9",
+      "comment": "",
+      "command": "open",
+      "target": "/lightning/page/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c594e6d-f4a4-4076-a76e-e4e55f830d9a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1358x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3fdac5d-b497-4aa3-815f-03861ca2f446",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-button_neutral",
+      "targets": [
+        ["css=.slds-button_neutral", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//header[@id='oneHeader']/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d19489e1-4fa3-4a0c-ab74-9aca240c9e13",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=114:0;p",
+      "targets": [
+        ["id=114:0;p", "id"],
+        ["css=#\\31 14\\3A 0\\;p", "css:finder"],
+        ["xpath=//button[@id='114:0;p']", "xpath:attributes"],
+        ["xpath=//header[@id='oneHeader']/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89a88659-6211-4231-bef0-1b6130efc43f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=114:0;p",
+      "targets": [
+        ["id=114:0;p", "id"],
+        ["css=#\\31 14\\3A 0\\;p", "css:finder"],
+        ["xpath=//button[@id='114:0;p']", "xpath:attributes"],
+        ["xpath=//header[@id='oneHeader']/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ITJ Test Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "219425b1-6bf5-4a19-9ce4-d45e3defacad",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=114:0;p",
+      "targets": [
+        ["id=114:0;p", "id"],
+        ["css=#\\31 14\\3A 0\\;p", "css:finder"],
+        ["xpath=//button[@id='114:0;p']", "xpath:attributes"],
+        ["xpath=//header[@id='oneHeader']/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ITJ Test Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "538899ef-5d40-4bfa-adbe-1690ca09dd0d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b0db200e-8831-4552-a07b-0b615d529a48"]
+  }],
+  "urls": ["https://itj-dev-ed.develop.lightning.force.com/"],
+  "plugins": []
+}
